@@ -1,5 +1,15 @@
 # Agent Reply Footer · 通用回复收尾规则
 
+## 一键安装并启用
+
+复制下面这一句话发给 Codex，即可依次安装技能、写入规则，并在当前对话采用：
+
+```text
+请使用 $skill-installer 从 https://github.com/StarSure/agent-reply-footer 安装 skills/agent-reply-footer（已安装则直接使用），随后读取该技能的 SKILL.md，按其说明将通用收尾规则和更新约定写入我的全局及当前项目 AGENTS.md，替换旧收尾规则、保留其他内容，并从本轮起立即应用于当前对话。
+```
+
+这条指令会更新全局及当前项目的规则；如只想在当前项目使用，将“我的全局及当前项目”改为“当前项目”即可。其他已有对话需分别通知重新读取规则。
+
 将“已完成／下一步”及轻量规则更新约定配置到 AGENTS.md。适用于使用 AGENTS.md 的 Codex 工作流。版本：0.1.0。
 
 仓库：[StarSure/agent-reply-footer](https://github.com/StarSure/agent-reply-footer)
