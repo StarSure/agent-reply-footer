@@ -1,4 +1,4 @@
 interface:
-  display_name: "回复收尾规则"
-  short_description: "安装或更新通用的已完成与下一步收尾规则，保留现有任务及项目约束"
-  default_prompt: "使用 $agent-reply-footer 为当前项目安装通用收尾规则和更新约定，并在当前对话立即采用。"
+  display_name: "已完成 / 下一步"
+  short_description: "让 Codex 在答复末尾说清完成结果和下一步，轻松启用或更新收尾规则"
+  default_prompt: "使用 $agent-reply-footer，在当前项目启用两行收尾，保留其他规则，从当前对话开始使用。"
